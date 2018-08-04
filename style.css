@@ -1,0 +1,37 @@
+body{
+  margin : 0;
+}
+ a {
+   color:black;
+   text-decoration: none;
+ }
+ h1 {
+   font-size : 45px;
+   text-align : center;
+   border-bottom : 1px solid gray;
+   margin : 0;
+   padding : 20px;
+ }
+ ol {
+   border-right : 1px solid gray;
+   width : 100px;
+   margin : 0;
+   padding : 15px;
+ }
+ h2, p{
+   margin-left : 20px;
+ }
+ #grid{
+   display : grid;
+   grid-template-columns : 150px 1fr;
+ }
+ #grid ol{ /* only effect on ol tag that under 'grid' id*/
+   margin-left : 20px;
+ }
+/* tag about using CSS (line no 1 to 8)
+    all a tag in this web page (line no 4 to 7)
+    default text color is black (line no 5)
+    no decoration (line no 6) */
+/* When downloading code from a web page on a network,
+   it is more efficient to store the css style code inside the html code,
+   but it is more efficient to download only one of the css files because of caching. */

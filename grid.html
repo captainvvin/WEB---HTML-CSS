@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      #grid{
+        border : 5px solid pink;
+        display : grid;
+        grid-template-columns : 150px 1fr;
+        /* use 1st template to 150px and other template is take remained space
+
+           n fr = divide entire box into n
+
+           if  grid~columns : 2fr 1fr; : divide entire box into 3
+           and 1st column takes 2/3 and 2nd column takes 1/3 */
+      }
+      div{
+        border : 5px solid gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="grid">
+      <div>NAVIGATION</div>
+      <div>Lorem ipsum dolor sit amet,
+           consectetur adipisicing elit,
+           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           Ut enim ad minim veniam,
+           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+           Excepteur sint occaecat cupidatat non proident,
+           sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    </div>
+    <!-- <span>NAVIGATION</span>
+         <span>ARTICLE</span> -->
+    <!-- div is 'no effect' box model element tag
+         span is 'no effect' inline element tag  -->
+  </body>
+</html>
